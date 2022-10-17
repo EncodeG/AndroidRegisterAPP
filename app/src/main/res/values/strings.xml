@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MidExam</string>
+    <string name="app_auth">郭雨豪</string>
+    <string name="account">用户名:</string>
+    <string name="passwd">密 码:</string>
+    <string name="app_register">登录</string>
+    <string name="app_log_in">注册</string>>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>

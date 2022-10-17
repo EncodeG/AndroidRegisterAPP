@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="16"
+    android:rowCount="16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpashActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="8"
+        android:text="One"
+        android:layout_columnWeight="1"
+        android:onClick="OneOnClick"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="8"
+        android:layout_columnSpan="8"
+        android:text="Two"
+        android:layout_columnWeight="1"
+        android:onClick="TwoOnClick"
+        android:padding="20dp"
+    />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/picture1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_row="1"-->
+        <!--android:layout_column="4"-->
+        <!--android:layout_columnSpan="4"-->
+        <!--android:src="@drawable/left"-->
+        <!--android:layout_rowWeight="1"-->
+        <!--android:layout_columnWeight="1"-->
+
+
+
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="8"
+        android:text="Three"
+        android:layout_columnWeight="1"
+        android:onClick="ThreeOnClick"
+        android:padding="20dp"
+        />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/picture2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_row="1"-->
+        <!--android:layout_column="8"-->
+        <!--android:layout_columnSpan="4"-->
+        <!--android:layout_rowWeight="1"-->
+        <!--android:layout_columnWeight="1"-->
+
+
+        <!--android:src="@drawable/down"-->
+
+        <!--/>-->
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="8"
+        android:layout_columnSpan="8"
+        android:text="Four"
+        android:layout_columnWeight="1"
+        android:onClick="FourOnClick"
+        android:padding="20dp"
+        />
+
+
+
+
+
+
+</GridLayout>
